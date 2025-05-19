@@ -1,0 +1,7 @@
+package pojeto;
+
+public class Objetoo {
+	public String nome;
+	public Double valor;
+
+}
