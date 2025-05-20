@@ -1,0 +1,11 @@
+package ClasseProdutos;
+
+public class Produtos {
+	
+	public void mostrarProdutos(){
+		System.out.println(" 1 - Café 50 mL - R$ 2.50");
+		System.out.println(" 2 - Pão de queijo 2 un - R$ 5.00 ");
+		System.out.println(" 3 - Doce de leite 20g - R$ 1.50 ");
+	}
+
+}
