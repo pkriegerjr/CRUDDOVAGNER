@@ -1,0 +1,42 @@
+/* modelo algorítmico (sugestão) da classe principal
+ * Caminho do aplicativo: 
+ * 	- apresentação da loja
+ * 	- pergunta: quer fazer compra? (S || N)
+ * 		- se não, o código encerra aqui
+ * 		- se sim, ele dá em um novo loop:
+ * 			- loop apresentando produtos guiando a compra (o controlador é um número fixo (1), que só altera se, em algum momento do percurso, o cliente finalizar compra ou abandonar a compra (aí vira zero e o loop encerra)
+ * 			- entrada: menu inicial (1 - adicionar item, 2 - ver o carrinho, 3 - atualizar item, 4 - remover item, 5 - finalizar compra, 6 - abandonar compra) 
+ * 				1 - adicionar um produto ao carrinho
+ * 					- perguntar qual (apresentar opções e preços)
+ * 					- perguntar quantidade 
+ * 					- adicionar ao array carrinho o nome do produto e o valor
+ * 					- adicionar ao array total o valor 
+ * 					- informar ao cliente a ação feita e comestá o carrinho e o total atual
+ * 				  - volta ao loop - menu inicial
+ * 				2 - ver o carrinho 
+ * 					- mostra os itens do carrinho e valores de cada um
+ * 					- mostra o valor total 
+ * 						- pergunta se quer finalizar compra (loop - menu inicial termina)
+ * 				  - depois da resposta, se não tiver finalizado o loop por encerrar a compra... volta ao menu inicial
+ * 				3 - atualizar item
+ * 					- mostra os itens e a posição de cada um, o cliente entra com o número que ele quer atualizar
+ * 					- pergunta se vai... : 
+ * 						- trocar o produto (e substitui o produto por outro no carrinho, bem como sua quantidade e no valor total)
+ * 						- trocar a quantidade (e substitui o multiplicador do produto, que vai alterar no valor Total)
+ * 				  - volta para o menu inicial
+ * 				4 - remover item 
+ * 					- mostra os itens e a posição de cada um, o cliente entra com o número que ele quer remover
+ * 				  - volta para o menu inicial
+ * 				5 - finalizar compra
+ * 					- numero fixo se torna zero (0) e o loop termina
+ * 					- array carrinho permanece íntegra
+ * 					- valor total permanece normal
+ * 				  - encerra o menu inicial.
+ * 				6 - cancelar compra
+ * 					- array carrinho é apagada
+ * 					- valor total zera
+ * 				  - encerra o menu inicial
+ *   - mostrar carrinho
+ *   - mostrar valor total
+ *   - despedida da loja -- obrigada por comprar conosco!
+*/
