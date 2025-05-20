@@ -1,0 +1,36 @@
+package Principal;
+
+import java.util.Scanner;
+
+import ClasseProdutos.Produtos;
+
+public class rascunho {
+
+	
+	public static void main(String[] args) {
+		
+		Produtos prodsdaloja = new Produtos();
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		// apresentação da loja
+		System.out.println("===================================");
+		System.out.println("  Seja  bem-vindo à nossa loja !");
+		System.out.println("===================================");
+
+		//apresentação de produtos - classe: ClasseProdutos - método: mostrarProdutos
+		prodsdaloja.mostrarProdutos();
+		
+		// desenvolvimento de laço com menu repetitivo até o cliente decidir finalizar compra
+		
+		
+		
+		// despedida da loja
+		System.out.println("===================================");
+		System.out.println("  Obrigada por comprar conosco !");
+		System.out.println("===================================");
+
+		entrada.close();
+	}
+
+}
